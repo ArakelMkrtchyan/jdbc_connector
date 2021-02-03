@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class Application {
 
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
-        String mysqlDriver = "com.mysql.jdbc.Driver";
+        String mysqlDriver = "com.mysql.cj.jdbc.Driver";
         String username = "root";
         String password = "Aa_094242632";
         String url = "jdbc:mysql://localhost:3306/userManagement";
